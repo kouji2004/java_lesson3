@@ -1,6 +1,24 @@
 package java練習;
 
+class lesson3 {
+  public static void main(String[] ages) {
+    int[] date = new int[4];
+
+    date[0] = 90;
+    date[1] = 80;
+    date[2] = 100;
+    date[3] = 90;
+
+    System.out.println("1人目は" + date[0] + "点");
+    System.out.println("1人目は" + date[1] + "点");
+    System.out.println("1人目は" + date[2] + "点");
+    System.out.println("1人目は" + date[3] + "点");
+
+  }
+}
+
 class lesson2 {
+  // 問題3
   public static void main(String[] ages) {
     String[] name = new String[5];
 
