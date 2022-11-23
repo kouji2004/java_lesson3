@@ -13,7 +13,7 @@ public class lesson8 {
       // 変数の宣言と値の代入
       int num = 10;
       double pi = 3.14;
-      // char blood;
+      char blood = 'A';
       boolean fun = true;
       String msg = "こんんちは";
 
@@ -22,7 +22,7 @@ public class lesson8 {
       System.out.println(pi);
       System.out.println(msg);
       System.out.println(pi);
-      // System.out.println(blood);
+      System.out.println(blood);
     }
   }
 }
