@@ -1,9 +1,12 @@
 package java練習;
 
 class lesson3 {
+  // 問題4
   public static void main(String[] ages) {
+    // 配列の生成
     int[] date = new int[4];
 
+    // 配列に値を代入
     date[0] = 90;
     date[1] = 80;
     date[2] = 100;
