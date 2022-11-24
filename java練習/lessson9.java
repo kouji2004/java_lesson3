@@ -6,11 +6,15 @@ package java練習;
 class lesson5 {
   public static void main(String[] ages) {
 
+    int[][] num = new int[2][2];
     String[][] name = new String[2][2];
 
     name[0][0] = "ミウラ";
+    num[0][0] = 11;
+    num[0][1] = 24;
 
-    System.out.println(name[0][0]);
+    System.out.println("こんにちは" + name[0][0] + "さん");
+    System.out.println("今日は" + num[0][0] + "月" + num[0][1] + "日です");
   }
 }
 
