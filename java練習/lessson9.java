@@ -3,6 +3,17 @@ package java練習;
 
 // 苦手な範囲を復習する(多次元配列)
 
+class lesson5 {
+  public static void main(String[] ages) {
+
+    String[][] name = new String[2][2];
+
+    name[0][0] = "ミウラ";
+
+    System.out.println(name[0][0]);
+  }
+}
+
 class lesson4 {
   public static void main(String[] ages) {
     int[][] name = new int[2][2]; // 行列
