@@ -1,4 +1,20 @@
 package java練習;
+// 苦手な範囲を復習する(配列)
+
+// 苦手な範囲を復習する(多次元配列)
+
+
+
+
+class lesson3 {
+  public static void main(String[] ages) {
+    int[][] name = { { 1 }, { 1 } };
+
+    name[0][0] = 1;
+
+    System.out.println(name[0][0]);
+  }
+}
 
 class lesson2 {
   // 苦手な範囲を復習する(多次元配列)
