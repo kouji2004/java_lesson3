@@ -4,6 +4,10 @@ import java.util.*;
 
 public class catApp {
   public static void main(String[] args) {
+    // 役者を揃える
+    // Randomインスタンス、ユーザーからの入力を受け取るのでScannerインスタンスが必要となる
+    Random rand = new Random();
+    Scanner sc = new Scanner(System.in);
   }
 }
 
