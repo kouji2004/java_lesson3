@@ -31,4 +31,13 @@ class Cat {
    * %d int 整数を10進法で出力
    * %f float 実数を出力
    */
+
+  // ンスタンスメソッドの作成
+  void play() {
+    System.out.println(this.name + "と遊んだ");
+    System.out.println("...");
+    System.out.println(this.name + "の親密度がアップした!");
+    this.intimacy++;
+  }
+
 }
