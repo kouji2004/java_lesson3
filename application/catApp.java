@@ -8,4 +8,7 @@ public class catApp {
 }
 
 class Cat {
+  String name; // 猫の名前
+  String type; // 猫の種類
+  int intimacy = 0; // 親密度
 }
