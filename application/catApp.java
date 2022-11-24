@@ -23,4 +23,12 @@ class Cat {
   String showStatus() {
     return String.format("%s[%s](%d)", this.name, this.type, this.intimacy);
   }
+
+  /*
+   * 予備知識
+   * %s,%d,%f【フォーマット指定子]
+   * %s string 文字列を出力
+   * %d int 整数を10進法で出力
+   * %f float 実数を出力
+   */
 }
