@@ -3,8 +3,26 @@ package java練習;
 
 // 苦手な範囲を復習する(多次元配列)
 
+class lesson4 {
+  public static void main(String[] ages) {
+    int[][] name = new int[2][2]; // 行列
+    int[][] num = { { 2 }, { 2 } }; // エラーが出現した
 
+    name[0][1] = 3;
+    num[0][0] = 5;
+    // num[0][1] = 3; エラー出現
 
+    System.out.println(name[0][1]);
+    System.out.println(num[0][0]);
+    // System.out.println(num[0][1]); エラー出現
+    /*
+     * エラー内容
+     * Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1
+     * out of bounds for length 1
+     * at java練習.lesson4.main
+     */
+  }
+}
 
 class lesson3 {
   public static void main(String[] ages) {
