@@ -1,6 +1,22 @@
 package java問題集;
 
 import java.util.Random;
+import java.util.Scanner;
+
+class lesson5 {
+  /*
+   * 名前を入力させ、それを出力する。
+   * [実行例]
+   * あなたのなまえを入力してください>〇〇[enter]
+   * こんにちは〇〇さん！
+   */
+
+  public static void main(String[] ages) {
+    System.out.println("あたたの名前を入力してください");
+    String name = new java.util.Scanner(System.in).nextLine();
+    System.out.println("こんにちは" + name + "さん");
+  }
+}
 
 class lesson4 {
   /*
