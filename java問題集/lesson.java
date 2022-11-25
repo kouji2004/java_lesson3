@@ -3,6 +3,25 @@ package java問題集;
 import java.util.Random;
 import java.util.Scanner;
 
+class lesson6 {
+  /*
+   * スカイツリーの高さを入力させ、それがあっていれば「OK!」間違っていれば「NG」と表示する。
+   * [実行例]
+   * スカイツリーの高さは？(m)>634[enter]
+   * OK!
+   */
+  public static void main(String[] ages) {
+    System.out.println("スカイツリーの高さは？");
+    int name = new java.util.Scanner(System.in).nextInt();
+    if (name == 634) {
+      System.out.println("ok");
+    } else {
+      System.out.println("no");
+    }
+
+  }
+}
+
 class lesson5 {
   /*
    * 名前を入力させ、それを出力する。
