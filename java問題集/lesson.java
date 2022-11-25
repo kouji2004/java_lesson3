@@ -12,6 +12,16 @@ class lesson7 {
    * 結婚しています。
    */
 
+  public static void main(String[] ages) {
+
+    boolean kekon = true;
+
+    if (kekon) {
+      System.out.println("結婚している");
+    } else {
+      System.out.println("結婚していない");
+    }
+  }
 }
 
 class lesson6 {
