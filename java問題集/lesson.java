@@ -3,6 +3,17 @@ package java問題集;
 import java.util.Random;
 import java.util.Scanner;
 
+class lesson7 {
+  /*
+   * 結婚しているかどうかを管理する変数isMarriedにtrueを代入する。
+   * isMarriedがtrueならば「結婚しています。」
+   * falseならば「結婚していません。」と出力する。
+   * [実行例]
+   * 結婚しています。
+   */
+
+}
+
 class lesson6 {
   /*
    * スカイツリーの高さを入力させ、それがあっていれば「OK!」間違っていれば「NG」と表示する。
