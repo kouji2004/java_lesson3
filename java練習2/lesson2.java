@@ -10,13 +10,13 @@ public class lesson2 {
     System.out.println("スペイン語で日曜は何?1:Lunes,2:Jueves,3:Domingo　>");
     int num = new java.util.Scanner(System.in).nextInt();
 
-    switch(num){
+    switch (num) {
       case 3:
-      System.out.println("ok");
-      break;
+        System.out.println("ok");
+        break;
 
       default:
-      System.out.println("no");
+        System.out.println("no");
     }
 
   }
