@@ -1,5 +1,6 @@
 package java練習5;
 
+
 public class lesson8 {
   /*
    * mainメソッドからgetBMIメソッドを呼び出す以下のアプリを作成する。詳しくは実行例を参照のこと
@@ -21,3 +22,7 @@ public class lesson8 {
     return weightKG / (heighttM * heighttM);
   }
 }
+
+
+
+
