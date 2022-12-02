@@ -24,5 +24,17 @@ public class lesson4 {
       System.out.printf("要素数", i);
       arr[i] = scan.nextInt();
     }
+    twiceArray(arr);
+    System.out.println("要素を2倍にしました");
+    System.out.print("{");
+    for(int i=0;i<arr.length;i++){
+      System.out.print(arr[i]+",");
+    }
+    System.out.println("}");
+  }
+  public static void twiceArray(int[] arr){
+        for(int i=0;i<arr.length;i++){
+          arr[i]*=2;
+        } 
   }
 }
