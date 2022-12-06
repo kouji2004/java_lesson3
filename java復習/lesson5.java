@@ -10,5 +10,15 @@ public class lesson5 {
    * といった、面倒かつコーディングミスの温床ともなる+による文字列連結からも解放される。
    */
 
-   
+  /*
+   * 小数点を２桁で表示したい場合
+   * 例えば以下のようなdoubleの数値があったとする
+   * double bmi=21.79930795847751;
+   * これを小数点２桁で表示したい。
+   * その場合は
+   */
+  public static void main(String[] ages) {
+    double bmi = 21.799654353;
+    System.out.println(bmi);
+  }
 }
