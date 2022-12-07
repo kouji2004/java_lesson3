@@ -20,5 +20,25 @@ public class lesson5 {
   public static void main(String[] ages) {
     double bmi = 21.799654353;
     System.out.println(bmi);
+
+    /*
+     * ３桁ごとに,を埋め込みたい場合
+     * 例えば以下のような金額を表す数値があったとする
+     * int money =10000000;
+     * 
+     * これに３桁ごとに,（カンマ)を加えたければ
+     */
+    int money = 10000000;
+    System.out.printf("所持金は%,d円です", money);
+
+    /*
+     * ２つの具体例をみてもわかるが、System.out.printf()は文字列の中に%~という書式文字列を埋め込んで使う。
+     * System.out.printf(“BMIは%.2fです。”,bmi);
+     * System.out.printf(“所持金は%,d円です。”,money);
+     */
+
+    String name = "みうら";
+    int age = 20;
+    System.out.printf("%s(%d)", name, age);
   }
 }
