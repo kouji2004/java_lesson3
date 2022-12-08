@@ -19,7 +19,7 @@ public class lesson2 {
       n = s.nextInt();
     } while (n < 0);
     int hour = n / SEC_OF_HOUR;
-    int min = (n / SEC_OF_HOUR) / SEC_OF_MIN;
+    int min = (n % SEC_OF_HOUR) / SEC_OF_MIN;
     int sec = n % SEC_OF_MIN;
     System.out.printf("%d時間%02d分%02d秒です。", hour, min, sec);
   }
