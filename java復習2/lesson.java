@@ -9,5 +9,13 @@ public class lesson {
       count--;
     }
     System.out.println("ans:" + x);
+
+    int j = 11;
+    count = 4;
+    while (count > 0) {
+      j += 5;
+      count--;
+    }
+    System.out.println(j);
   }
 }
